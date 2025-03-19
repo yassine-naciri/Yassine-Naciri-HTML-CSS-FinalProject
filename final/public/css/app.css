@@ -49848,7 +49848,77 @@ header nav ul li a {
   border: 1px solid gray;
 }
 
+.port {
+  display: flex;
+  justify-content: center;
+  gap: 5rem;
+}
+
+.port > ul {
+  display: flex;
+  gap: 5rem;
+}
+
+.port > a, label {
+  border-radius: 25px;
+  font-size: 15px;
+  padding: 1rem;
+  color: black;
+}
+
+.port > a:hover, label:hover {
+  color: #e87532;
+  background: #fceae0;
+}
+
+#checker {
+  display: none;
+}
+
+#hide {
+  right: 30rem;
+  display: none;
+}
+
+#checker:checked ~ #hide {
+  position: relative;
+  display: block;
+}
+
 @media (max-width: 440px) {
+  body {
+    overflow-x: hidden;
+  }
+  .port {
+    display: flex;
+    justify-content: center;
+    gap: 0.3rem;
+  }
+  .port > ul {
+    display: flex;
+    gap: 0.2rem;
+  }
+  .port > a, label {
+    border-radius: 25px;
+    font-size: 15px;
+    padding: 1rem;
+    color: black;
+  }
+  .port > a:hover, label:hover {
+    color: #e87532;
+    background: #fceae0;
+  }
+  #checker {
+    display: none;
+  }
+  #hide {
+    right: 10rem;
+    display: none;
+  }
+  #checker:checked ~ #hide {
+    position: relative;
+    display: block;
+  }
   .title_h2 {
     font-size: 40px;
     width: 100%;
@@ -50242,43 +50312,6 @@ header nav ul li a {
     display: block;
   }
 }
-.port {
-  display: flex;
-  justify-content: center;
-  gap: 5rem;
-}
-
-.port > ul {
-  display: flex;
-  gap: 5rem;
-}
-
-.port > a, label {
-  border-radius: 25px;
-  font-size: 15px;
-  padding: 1rem;
-  color: black;
-}
-
-.port > a:hover, label:hover {
-  color: #e87532;
-  background: #fceae0;
-}
-
-#checker {
-  display: none;
-}
-
-#hide {
-  right: 30rem;
-  display: none;
-}
-
-#checker:checked ~ #hide {
-  position: relative;
-  display: block;
-}
-
 footer {
   display: flex;
   justify-content: center;
