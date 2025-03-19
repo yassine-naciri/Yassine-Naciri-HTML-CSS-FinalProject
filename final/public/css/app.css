@@ -49912,7 +49912,7 @@ header nav ul li a {
     display: none;
   }
   #hide {
-    right: 10rem;
+    right: 13rem;
     display: none;
   }
   #checker:checked ~ #hide {

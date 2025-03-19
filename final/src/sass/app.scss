@@ -408,7 +408,7 @@ header nav ul li a{
   }
   
   #hide{
-    right:10rem;
+    right:13rem;
     display: none;
   }
   #checker:checked~#hide{
@@ -659,6 +659,7 @@ header nav ul li a{
 /* Navmenu - Desktop */
 @media (min-width: 1200px) {
   .navmenu {
+    
     padding: 0;
   }
 
